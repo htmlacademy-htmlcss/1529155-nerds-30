@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Юрий Шпаченко](https://up.htmlacademy.ru/htmlcss/30/user/1529155).
-* Наставник: `Неизвестно`.
+* Наставник: `[Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya)`.
 
 ---
 
