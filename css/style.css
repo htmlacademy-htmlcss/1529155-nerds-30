@@ -42,7 +42,7 @@
   --special-extra-yellow: #E5A722;
   --special-grey: #DFDFDF;
   --special-extra-grey: #D5D5D5;
-  
+  --special-dark-grey: #4D4D4D;
 }
 
 /*Body*/
@@ -227,4 +227,64 @@ a {
   background-repeat: no-repeat;
 }
   
+.page-title {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+}
 
+.filter ul {
+  list-style: none;
+  line-height: 18px;
+}
+
+.filter legend {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.filter-input-checkbox:hover + label,
+.filter-input-checkbox:focus + label {
+  color: var(--special-dark-grey)
+}
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-item {
+  box-shadow: 0 0 10px color: var(--basic-black)
+}
+
+.catalog-item a {
+  color: var(--basic-white)
+}
+
+.catalog-item h3 {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item a {
+  color: var(--basic-black);
+  background-color: var(--basic-grey);
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus,
+.pagination-item a:active {
+  background-color: var(--special-grey)
+}
+
+.pagination-item-current a,
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+  background-color: var(--basic-white);
+  border: 3px solid #DBDBDB;
+  border-radius: 3px;
+}
